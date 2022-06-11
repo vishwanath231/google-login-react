@@ -1,0 +1,32 @@
+body {
+    font-family: 'Sen', sans-serif;
+    background-color: #f8f9fa;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+}
+
+.profile__box{
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.profile__box .image {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.profile__box .name{
+    margin: 1rem 0;
+    font-size: 1.3rem;
+}
+
+.profile__box .email{
+    margin-bottom: 1rem;
+}
